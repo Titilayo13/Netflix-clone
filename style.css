@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body .wholesection .hero {
+  height: 450%;
+  background-color: #00081d;
+}
+body .wholesection .hero .herowrapper {
+  background: linear-gradient(to right, #00081d, rgba(0, 0, 0, 0.3)),
+    url(./images/NG-en-20230410-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+}
+body .wholesection .hero .herowrapper .navbar {
+  max-width: 90%;
+  margin: 0 auto;
+}
+body .wholesection .hero .herowrapper .herowrapperA {
+  max-width: 75%;
+  margin: 5% auto;
+  /* background-color: aqua; */
+}
+body .wholesection .hero .herowrapper .herowrapperA .input-group {
+  height: 55px;
+  /* background-color: aliceblue; */
+}
+body .wholesection .hero .herowrapper .herowrapperA input {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body .wholesection .hero .herowrapper .herowrapperA input::placeholder {
+  color: white;
+}
+
+body .wholesection .hero .herowrapper .herowrapperA button {
+  background-color: red;
+  width: 150px;
+}
+body .wholesection .hero .herowrapper .cardwrapper {
+  max-width: 95%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px 0;
+}
+body .wholesection .hero .herowrapper .cardwrapper .card1 {
+  width: 49%;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, #0b143b, #400e20);
+  border-radius: 5px;
+}
+body .wholesection .hero .herowrapper .cardwrapper .card1 .card1A {
+  max-width: 70%;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 40px;
+  /* background-color: red; */
+}
+body .wholesection .hero .herowrapper .cardwrapper .card1 .card1A img {
+  width: 100%;
+}
+body .wholesection .hero .herowrapper .cardwrapper .card1 .card1A h6 {
+  width: 90%;
+}
+body .wholesection .hero .herowrapper .accord {
+  margin: 5% 0;
+}
+body .wholesection .hero .herowrapper .accord .accwrapper {
+  /* background-color: aqua; */
+  max-width: 80%;
+  margin: 0 auto;
+}
+body .wholesection .hero .herowrapper .accord .accwrapper .accordion-item {
+  background-color: #132144;
+  color: white;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+}
+body
+  .wholesection
+  .hero
+  .herowrapper
+  .accord
+  .accwrapper
+  .accordion-item
+  .accordion-header
+  .accordion-button {
+  background-color: #132144;
+  color: white;
+  height: 80px;
+  font-size: 22px;
+}
+body
+  .wholesection
+  .hero
+  .herowrapper
+  .accord
+  .accwrapper
+  .accordion-item
+  .accordion-header
+  .accordion-button:hover {
+  background-color: #334d8d;
+}
+body .wholesection .hero .herowrapper .accord .accwrapper .input-group {
+  height: 55px;
+}
+body .wholesection .hero .herowrapper .accord .accwrapper input {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body
+  .wholesection
+  .hero
+  .herowrapper
+  .accord
+  .accwrapper
+  .input-group
+  .btn-two {
+  background-color: red;
+  width: 150px;
+}
+body .wholesection .hero .herowrapper .accord .accwrapper input::placeholder {
+  color: white;
+}
+body .wholesection .hero .herowrapper .footerr {
+  margin: 8% 0;
+}
+body .wholesection .hero .herowrapper .footerr .footerwrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+body .wholesection .hero .herowrapper .footerr .footerwrapper .footerr2 {
+  width: 80%;
+  justify-content: space-between;
+}
+body .wholesection .hero .herowrapper .footerr .footerwrapper .footerr2 a {
+  color: gainsboro;
+  font-size: 14px;
+}
+body .wholesection .hero .herowrapper .footerr .footerwrapper .btn-three {
+  width: 120px;
+}
